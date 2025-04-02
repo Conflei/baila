@@ -4,11 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 Future<void> main() async {
-  await Supabase.initialize(
-    url: 'https://jswoouthucjkifcqrcxv.supabase.co',
-    anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impzd29vdXRodWNqa2lmY3FyY3h2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM1NDc2NTYsImV4cCI6MjA1OTEyMzY1Nn0.B8sGuFrjJN-ulR3751F5oCaZVkcICPyT0srzhoTLX_g', // your anonKey
-  );
+  await Supabase.initialize(url: '', anonKey: '');
 
   runApp(const MyApp());
 }
